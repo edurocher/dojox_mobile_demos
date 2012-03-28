@@ -108,6 +108,12 @@ define(["dojo/_base/lang"],
 				jsmodule: "demos/mobileGallery/src/mobileListData",
 				jsSrc: "doc/src/mobileListData.js.txt"
 			}, {
+				id: "media",
+				speclevel: "8",
+				iconPos: "435,0,29,29",
+				title: "Media",
+				demourl: "views/mobileMedia.html"
+			}, {
 				href: "../mobileGauges/demo.html",
 				hrefTarget: "_blank",
 				speclevel: "7",
