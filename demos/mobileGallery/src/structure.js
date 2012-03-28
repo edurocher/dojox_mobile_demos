@@ -84,14 +84,6 @@ define(["dojo/_base/lang"],
 				jsmodule: "demos/mobileGallery/src/headings",
 				jsSrc: "doc/src/headings.js.txt"
 			}, {
-				id: "map",
-				speclevel: "6",
-				iconPos: "174,0,29,29",
-				title: "Map (Google)",
-				demourl: "views/map.html",
-				jsmodule: "demos/mobileGallery/src/map",
-				jsSrc: "doc/src/map.js.txt"
-			}, {
 				id: "list",
 				speclevel: "6",
 				iconPos: "203,0,29,29",
@@ -114,6 +106,14 @@ define(["dojo/_base/lang"],
 				title: "Media",
 				demourl: "views/mobileMedia.html"
 			}, {
+				id: "map",
+				speclevel: "6",
+				iconPos: "174,0,29,29",
+				title: "Map (Google)",
+				demourl: "views/map.html",
+				jsmodule: "demos/mobileGallery/src/map",
+				jsSrc: "doc/src/map.js.txt"
+			}, {			
 				href: "../mobileGauges/demo.html",
 				hrefTarget: "_blank",
 				speclevel: "7",
