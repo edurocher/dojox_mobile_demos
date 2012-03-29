@@ -1,6 +1,5 @@
 define(["dojox/mobile/parser",
 		"dojox/mobile",
-		"dojox/mobile/deviceTheme",
 		"dojox/mobile/compat",
 		"dojox/mobile/Accordion",
 		"dojox/mobile/ContentPane",
