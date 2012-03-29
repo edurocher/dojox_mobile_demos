@@ -23,6 +23,7 @@ images/welcomeLogo.png
 images/left-arrow-mask.png
 
 # js files for individual demo
+src/accordion.js
 src/ajax.js
 src/css3.js
 src/forms.js
@@ -36,6 +37,7 @@ src/html5.js
 data/dataList.json
 # html files for individual demo
 icons-url.html
+views/accordion.html
 views/ajax.html
 views/ajaxLoad.html
 views/buttons.html
@@ -64,6 +66,14 @@ images/tab-icons.png
 images/tab-icons-25.png
 images/iconitems-all.png
 images/dojoLogo.png
+images/icons16.png
+images/tab-icon-11.png
+images/tab-icon-11h.png
+images/tab-icon-11w.png
+images/tab-icon-15.png
+images/tab-icon-15h.png
+images/tab-icon-16.png
+images/tab-icon-16h.png
 # workaroud for build tool/or loader cannot merge some JS
 ../../dojox/mobile/parser.js
 ../../dojox/mobile/compat.js
@@ -74,8 +84,10 @@ images/dojoLogo.png
 ../../dojox/mobile/FixedSplitterPane.js
 ../../dojox/mobile/SwapView.js
 ../../dojox/mobile/TabBar.js
+../../dojox/mobile/Accordion.js
 # JS codes for demonstration for each demo
 # Note here we aim at built version
+doc/src/accordion.js.txt
 doc/src/ajax.js.txt
 doc/src/css3.js.txt
 doc/src/forms.js.txt
