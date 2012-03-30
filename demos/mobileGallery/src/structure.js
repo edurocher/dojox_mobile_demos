@@ -107,7 +107,15 @@ define(["dojo/_base/lang"],
 				demourl: "views/accordion.html",
 				jsmodule: "demos/mobileGallery/src/accordion",
 				jsSrc: "doc/src/accordion.js.txt"
-			}, {							
+			}, {		
+				id: "gridLayout",
+				speclevel: "8",
+				iconPos: "87,0,29,29",
+				title: "GridLayout",
+				demourl: "views/gridLayout.html",
+				jsmodule: "demos/mobileGallery/src/gridLayout",
+				jsSrc: "doc/src/gridLayout.js.txt"
+			}, {									
 				id: "media",
 				speclevel: "8",
 				iconPos: "435,0,29,29",
