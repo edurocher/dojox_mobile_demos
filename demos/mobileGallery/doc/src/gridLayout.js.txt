@@ -25,14 +25,14 @@ define(["dojo/_base/connect",
 				var widget = registry.byId("pane1GridLayout");
 				var opts = {moveTo: "view2GridLayout", transition: "slide", transitionDir: 1};
 				var ev = new TransitionEvent(widget.domNode, opts);
-				ev.dispatch()
+				ev.dispatch();
 			};
 
 			goToOrder = function(id){
 				var widget = registry.byId("pane2-1GridLayout");
 				var opts = {moveTo: "view3GridLayout", transition: "slide", transitionDir: 1};
 				var ev = new TransitionEvent(widget.domNode, opts);
-				ev.dispatch()
+				ev.dispatch();
 			};
 
 
@@ -40,28 +40,28 @@ define(["dojo/_base/connect",
 				var widget = registry.byId("numGridLayout");
 				valueInt = parseInt(widget.textbox.value);
 				valueInt = isNaN(valueInt) ? 0 : valueInt + 1;
-				widget.textbox.value = valueInt.toString()
+				widget.textbox.value = valueInt.toString();
 			};
 
 			minus = function(){
 				var widget = registry.byId("numGridLayout");
 				valueInt = parseInt(widget.textbox.value);
-				valueInt = isNaN(valueInt) || valueInt <=0 ? 0 : valueInt - 1;
-				widget.textbox.value = valueInt.toString()
+				valueInt = isNaN(valueInt) || valueInt <= 0 ? 0 : valueInt - 1;
+				widget.textbox.value = valueInt.toString();
 			};
 			
 			cancel = function(){
 				var widget = registry.byId("cancelGridLayout");
 				var opts = {moveTo: "view2GridLayout", transition: "slide", transitionDir: -1};
 				var ev = new TransitionEvent(widget.domNode, opts);
-				ev.dispatch()
+				ev.dispatch();
 			};
 
 			ok = function(){
 				var widget = registry.byId("okGridLayout");
 				var opts = {moveTo: "view1GridLayout", transition: "fade", transitionDir: -1};
 				var ev = new TransitionEvent(widget.domNode, opts);
-				ev.dispatch()
+				ev.dispatch();
 			};
 		}
 	};
