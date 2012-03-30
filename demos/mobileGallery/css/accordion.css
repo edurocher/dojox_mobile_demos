@@ -1,0 +1,5 @@
+.accordionPane {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#dcdcdc), to(#FFFFFF));
+	font-family: Times New Roman, Helvetica;
+	color: black;
+}

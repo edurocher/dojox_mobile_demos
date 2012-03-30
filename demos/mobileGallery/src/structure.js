@@ -84,14 +84,6 @@ define(["dojo/_base/lang"],
 				jsmodule: "demos/mobileGallery/src/headings",
 				jsSrc: "doc/src/headings.js.txt"
 			}, {
-				id: "map",
-				speclevel: "6",
-				iconPos: "174,0,29,29",
-				title: "Map (Google)",
-				demourl: "views/map.html",
-				jsmodule: "demos/mobileGallery/src/map",
-				jsSrc: "doc/src/map.js.txt"
-			}, {
 				id: "list",
 				speclevel: "6",
 				iconPos: "203,0,29,29",
@@ -108,6 +100,22 @@ define(["dojo/_base/lang"],
 				jsmodule: "demos/mobileGallery/src/mobileListData",
 				jsSrc: "doc/src/mobileListData.js.txt"
 			}, {
+				id: "accordion",
+				speclevel: "8",
+				iconPos: "464,0,29,29",
+				title: "Accordion",
+				demourl: "views/accordion.html",
+				jsmodule: "demos/mobileGallery/src/accordion",
+				jsSrc: "doc/src/accordion.js.txt"
+			}, {		
+				id: "gridLayout",
+				speclevel: "8",
+				iconPos: "87,0,29,29",
+				title: "GridLayout",
+				demourl: "views/gridLayout.html",
+				jsmodule: "demos/mobileGallery/src/gridLayout",
+				jsSrc: "doc/src/gridLayout.js.txt"
+			}, {									
 				id: "media",
 				speclevel: "8",
 				iconPos: "435,0,29,29",
@@ -115,6 +123,14 @@ define(["dojo/_base/lang"],
 				demourl: "views/mobileMedia.html",
 				jsmodule: "demos/mobileGallery/src/media"
 			}, {
+				id: "map",
+				speclevel: "6",
+				iconPos: "174,0,29,29",
+				title: "Map (Google)",
+				demourl: "views/map.html",
+				jsmodule: "demos/mobileGallery/src/map",
+				jsSrc: "doc/src/map.js.txt"
+			}, {			
 				href: "../mobileGauges/demo.html",
 				hrefTarget: "_blank",
 				speclevel: "7",
