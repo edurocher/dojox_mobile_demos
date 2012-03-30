@@ -100,20 +100,20 @@ define(["dojo/_base/lang"],
 				jsmodule: "demos/mobileGallery/src/mobileListData",
 				jsSrc: "doc/src/mobileListData.js.txt"
 			}, {
+				id: "accordion",
+				speclevel: "8",
+				iconPos: "464,0,29,29",
+				title: "Accordion",
+				demourl: "views/accordion.html",
+				jsmodule: "demos/mobileGallery/src/accordion",
+				jsSrc: "doc/src/accordion.js.txt"
+			}, {							
 				id: "media",
 				speclevel: "8",
 				iconPos: "435,0,29,29",
 				title: "Media",
 				demourl: "views/mobileMedia.html"
 			}, {
-				id: "accordion",
-				speclevel: "8",
-				iconPos: "203,0,29,29",
-				title: "Accordion",
-				demourl: "views/accordion.html",
-				jsmodule: "demos/mobileGallery/src/accordion",
-				jsSrc: "doc/src/accordion.js.txt"
-			}, {			
 				id: "map",
 				speclevel: "6",
 				iconPos: "174,0,29,29",
