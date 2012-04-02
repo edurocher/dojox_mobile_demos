@@ -27,6 +27,7 @@ src/accordion.js
 src/ajax.js
 src/css3.js
 src/forms.js
+src/gridLayout.js
 src/headings.js
 src/icons.js
 src/jsonp.js
@@ -74,6 +75,12 @@ images/tab-icon-15.png
 images/tab-icon-15h.png
 images/tab-icon-16.png
 images/tab-icon-16h.png
+images/menu1.jpg
+images/menu2.jpg
+images/menu3.jpg
+images/menu4.jpg
+images/menu5.jpg
+images/menu6.jpg
 # workaroud for build tool/or loader cannot merge some JS
 ../../dojox/mobile/parser.js
 ../../dojox/mobile/compat.js
@@ -98,6 +105,7 @@ doc/src/map.js.txt
 doc/src/mobileListData.js.txt
 doc/src/list.js.txt
 doc/src/html5.js.txt
+doc/src/gridLayout.js.txt
 
 NETWORK:
 *
