@@ -2,14 +2,14 @@
 	<ul data-dojo-type="dojox.mobile.TabBar" 
 		data-dojo-props='barType:"segmentedControl", fixed:"top"'>
 		<li data-dojo-type="dojox.mobile.TabBarButton" 
-			data-dojo-props='moveTo:"view1"'>Fixed</li>
+			data-dojo-props='moveTo:"accordionView1"'>Fixed</li>
 		<li data-dojo-type="dojox.mobile.TabBarButton" 
-			data-dojo-props='moveTo:"view2", selected:true'>Multi</li>
+			data-dojo-props='moveTo:"accordionView2", selected:true'>Multi</li>
 		<li data-dojo-type="dojox.mobile.TabBarButton" 
-			data-dojo-props='moveTo:"view3"'>Single</li>
+			data-dojo-props='moveTo:"accordionView3"'>Single</li>
 	</ul>
 
-	<div data-dojo-type="dojox.mobile.ScrollableView">
+	<div id="accordionView1" data-dojo-type="dojox.mobile.ScrollableView">
 		<div data-dojo-type="dojox.mobile.Accordion" 
 			data-dojo-props='fixedHeight:true' style="height:400px;">
 			<div data-dojo-type="dojox.mobile.ScrollableView" 
@@ -63,7 +63,8 @@
 			</div>
 		</div>
 	</div>
-		<div data-dojo-type="dojox.mobile.ScrollableView" 
+	
+	<div id="accordionView2" data-dojo-type="dojox.mobile.ScrollableView" 
 		data-dojo-props='selected:true'>
 		<div data-dojo-type="dojox.mobile.Accordion" 
 			data-dojo-props='iconBase:"images/icons16.png"'>
@@ -117,7 +118,8 @@
 			</div>
 		</div>
 	</div>
-		<div data-dojo-type="dojox.mobile.ScrollableView">
+	
+	<div id="accordionView3" data-dojo-type="dojox.mobile.ScrollableView">
 		<div data-dojo-type="dojox.mobile.Accordion" data-dojo-props='singleOpen:true'>
 			<div data-dojo-type="dojox.mobile.ScrollableView" style="background-color:white"
 				data-dojo-props='label:"ScrollableView", height:"100px", propagatable:false, appBars:false'>
