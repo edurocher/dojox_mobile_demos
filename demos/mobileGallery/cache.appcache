@@ -42,7 +42,7 @@ views/ajax.html
 views/ajaxLoad.html
 views/buttons.html
 views/css3.html
-views/flippableViews.html
+views/swapView.html
 views/forms.html
 views/headings.html
 views/icons.html

@@ -56,11 +56,11 @@ define(["dojo/_base/lang"],
 				title: "Switches",
 				demourl: "views/mobileSwitches.html"
 			}, {
-				id: "flippableView",
-				speclevel: "6",
+				id: "swapView",
+				speclevel: "7",
 				iconPos: "58,0,29,29",
-				title: "Flippable",
-				demourl: "views/flippableViews.html"
+				title: "Swap View",
+				demourl: "views/swapView.html"
 			}, {
 				id: "icons",
 				speclevel: "6",
