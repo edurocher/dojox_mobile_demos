@@ -120,7 +120,8 @@ define(["dojo/_base/lang"],
 				speclevel: "8",
 				iconPos: "435,0,29,29",
 				title: "Media",
-				demourl: "views/mobileMedia.html"
+				demourl: "views/mobileMedia.html",
+				jsmodule: "demos/mobileGallery/src/media"
 			}, {
 				id: "map",
 				speclevel: "6",
