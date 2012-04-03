@@ -118,7 +118,7 @@ define(["dojo/_base/lang"],
 			}, {
 				id: "progress",
 				speclevel: "8",
-				iconPos: "87,0,29,29",
+				iconPos: "493,0,29,29",
 				title: "Progress",
 				demourl: "views/progress.html",
 				jsmodule: "demos/mobileGallery/src/progress",
