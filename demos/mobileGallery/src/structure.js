@@ -115,7 +115,15 @@ define(["dojo/_base/lang"],
 				demourl: "views/gridLayout.html",
 				jsmodule: "demos/mobileGallery/src/gridLayout",
 				jsSrc: "doc/src/gridLayout.js.txt"
-			}, {									
+			}, {
+				id: "progress",
+				speclevel: "8",
+				iconPos: "87,0,29,29",
+				title: "Progress",
+				demourl: "views/progress.html",
+				jsmodule: "demos/mobileGallery/src/progress",
+				jsSrc: "doc/src/progress.js.txt"
+			}, {					
 				id: "media",
 				speclevel: "8",
 				iconPos: "435,0,29,29",

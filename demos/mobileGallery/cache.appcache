@@ -28,6 +28,7 @@ src/ajax.js
 src/css3.js
 src/forms.js
 src/gridLayout.js
+src/progress.js
 src/headings.js
 src/icons.js
 src/jsonp.js
@@ -55,6 +56,8 @@ views/mobileSwitches.html
 views/mobileTransitions.html
 views/tabBar.html
 views/html5.html
+views/gridLayout.html
+views/progress.html
 
 # other image files
 images/flip1.jpg
@@ -106,6 +109,7 @@ doc/src/mobileListData.js.txt
 doc/src/list.js.txt
 doc/src/html5.js.txt
 doc/src/gridLayout.js.txt
+doc/src/progress.js.txt
 
 NETWORK:
 *
