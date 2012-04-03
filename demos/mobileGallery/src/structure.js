@@ -131,6 +131,14 @@ define(["dojo/_base/lang"],
 				demourl: "views/mobileMedia.html",
 				jsmodule: "demos/mobileGallery/src/media"
 			}, {
+				id: "badges",
+				speclevel: "8",
+				iconPos: "435,0,29,29",
+				title: "Badges",
+				demourl: "views/badges.html",
+				jsmodule: "demos/mobileGallery/src/badges",
+				jsSrc: "doc/src/badges.js.txt"				
+			}, {			
 				id: "map",
 				speclevel: "6",
 				iconPos: "174,0,29,29",
