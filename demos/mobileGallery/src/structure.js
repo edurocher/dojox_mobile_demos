@@ -133,7 +133,7 @@ define(["dojo/_base/lang"],
 			}, {
 				id: "badges",
 				speclevel: "8",
-				iconPos: "435,0,29,29",
+				iconPos: "522,0,29,29",
 				title: "Badges",
 				demourl: "views/badges.html",
 				jsmodule: "demos/mobileGallery/src/badges",
