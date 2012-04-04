@@ -29,6 +29,7 @@ src/css3.js
 src/forms.js
 src/gridLayout.js
 src/progress.js
+src/rating.js
 src/headings.js
 src/icons.js
 src/jsonp.js
@@ -58,6 +59,7 @@ views/tabBar.html
 views/html5.html
 views/gridLayout.html
 views/progress.html
+views/rating.html
 
 # other image files
 images/flip1.jpg
@@ -110,6 +112,7 @@ doc/src/list.js.txt
 doc/src/html5.js.txt
 doc/src/gridLayout.js.txt
 doc/src/progress.js.txt
+doc/src/rating.js.txt
 
 NETWORK:
 *

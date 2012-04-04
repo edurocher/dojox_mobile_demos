@@ -138,7 +138,15 @@ define(["dojo/_base/lang"],
 				demourl: "views/badges.html",
 				jsmodule: "demos/mobileGallery/src/badges",
 				jsSrc: "doc/src/badges.js.txt"				
-			}, {			
+			}, {
+				id: "rating",
+				speclevel: "8",
+				iconPos: "493,0,29,29",
+				title: "Rating",
+				demourl: "views/rating.html",
+				jsmodule: "demos/mobileGallery/src/rating",
+				jsSrc: "doc/src/rating.js.txt"
+			}, {				
 				id: "map",
 				speclevel: "6",
 				iconPos: "174,0,29,29",
