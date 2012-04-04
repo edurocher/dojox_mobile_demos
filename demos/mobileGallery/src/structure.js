@@ -56,11 +56,11 @@ define(["dojo/_base/lang"],
 				title: "Switches",
 				demourl: "views/mobileSwitches.html"
 			}, {
-				id: "flippableView",
-				speclevel: "6",
+				id: "swapView",
+				speclevel: "7",
 				iconPos: "58,0,29,29",
-				title: "Flippable",
-				demourl: "views/flippableViews.html"
+				title: "Swap View",
+				demourl: "views/swapView.html"
 			}, {
 				id: "icons",
 				speclevel: "6",
@@ -115,7 +115,15 @@ define(["dojo/_base/lang"],
 				demourl: "views/gridLayout.html",
 				jsmodule: "demos/mobileGallery/src/gridLayout",
 				jsSrc: "doc/src/gridLayout.js.txt"
-			}, {									
+			}, {
+				id: "progress",
+				speclevel: "8",
+				iconPos: "493,0,29,29",
+				title: "Progress",
+				demourl: "views/progress.html",
+				jsmodule: "demos/mobileGallery/src/progress",
+				jsSrc: "doc/src/progress.js.txt"
+			}, {					
 				id: "media",
 				speclevel: "8",
 				iconPos: "435,0,29,29",
@@ -123,6 +131,14 @@ define(["dojo/_base/lang"],
 				demourl: "views/mobileMedia.html",
 				jsmodule: "demos/mobileGallery/src/media"
 			}, {
+				id: "badges",
+				speclevel: "8",
+				iconPos: "522,0,29,29",
+				title: "Badges",
+				demourl: "views/badges.html",
+				jsmodule: "demos/mobileGallery/src/badges",
+				jsSrc: "doc/src/badges.js.txt"				
+			}, {			
 				id: "map",
 				speclevel: "6",
 				iconPos: "174,0,29,29",
