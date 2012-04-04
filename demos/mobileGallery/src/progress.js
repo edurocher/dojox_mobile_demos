@@ -1,5 +1,4 @@
-define(["dojo/_base/connect",
-		"dojo/dom",
+define(["dojo/dom",
 		"dojo/dom-class",
 		"dojo/ready",
 		"dojo/_base/array",
@@ -14,7 +13,7 @@ define(["dojo/_base/connect",
 		"dojox/mobile/TabBar",
 		"dojox/mobile/TabBarButton",
 		"dojox/mobile/Button"], 
-	function(connect, dom, domClass, ready, array, registry, on) {
+	function(dom, domClass, ready, array, registry, on) {
 	return {
 		init: function(){
 			ready(function(){
