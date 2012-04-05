@@ -116,6 +116,14 @@ define(["dojo/_base/lang"],
 				jsmodule: "demos/mobileGallery/src/gridLayout",
 				jsSrc: "doc/src/gridLayout.js.txt"
 			}, {
+				id: "scrollablePane",
+				speclevel: "8",
+				iconPos: "87,0,29,29",
+				title: "ScrollablePane",
+				demourl: "views/scrollablePane.html",
+				jsmodule: "demos/mobileGallery/src/scrollablePane",
+				jsSrc: "doc/src/scrollablePane.js.txt"
+			}, {				
 				id: "progress",
 				speclevel: "8",
 				iconPos: "493,0,29,29",

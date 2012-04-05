@@ -30,6 +30,7 @@ src/forms.js
 src/gridLayout.js
 src/progress.js
 src/rating.js
+src/scrollablePane.js
 src/headings.js
 src/icons.js
 src/jsonp.js
@@ -60,6 +61,7 @@ views/html5.html
 views/gridLayout.html
 views/progress.html
 views/rating.html
+views/scrollablePane.html
 
 # other image files
 images/flip1.jpg
@@ -113,6 +115,7 @@ doc/src/html5.js.txt
 doc/src/gridLayout.js.txt
 doc/src/progress.js.txt
 doc/src/rating.js.txt
+doc/src/scrollablePane.js.txt
 
 NETWORK:
 *
