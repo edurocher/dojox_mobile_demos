@@ -149,7 +149,7 @@ define(["dojo/_base/lang"],
 			}, {
 				id: "rating",
 				speclevel: "8",
-				iconPos: "493,0,29,29",
+				iconPos: "609,0,29,29",
 				title: "Rating",
 				demourl: "views/rating.html",
 				jsmodule: "demos/mobileGallery/src/rating",
