@@ -10,9 +10,7 @@ require(["dojo/dom",
                  
 
 	show = function(dlg) {
-		var toto = registry.byId(dlg);
-		toto.show();
-		// registry.byId(dlg).show();
+		registry.byId(dlg).show();
 	}
 
 	hide = function(dlg) {
