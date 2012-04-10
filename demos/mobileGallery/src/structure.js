@@ -154,6 +154,14 @@ define(["dojo/_base/lang"],
 				demourl: "views/rating.html",
 				jsmodule: "demos/mobileGallery/src/rating",
 				jsSrc: "doc/src/rating.js.txt"
+			}, {
+				id: "dialogs",
+				speclevel: "8",
+				iconPos: "638,0,29,29",
+				title: "Dialogs",
+				demourl: "views/dialogs.html",
+				// jsmodule: "demos/mobileGallery/src/dialogs",
+				// jsSrc: "doc/src/dialogs.js.txt"
 			}, {				
 				id: "map",
 				speclevel: "6",
