@@ -1,7 +1,5 @@
 .accordionPane {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#dcdcdc), to(#FFFFFF));
 	font-family: Times New Roman, Helvetica;
-	color: black;
 }
 
 /* The accordion title are "a" elements. The rule below aims to override the 
@@ -9,5 +7,5 @@
    (and similar for iphone theme), thus restoring the default color from 
    dojox.mobile themes (all platforms). */
 #accordion .mblAccordionTitleAnchor {
-  color: black;
+	color: black;
 }
