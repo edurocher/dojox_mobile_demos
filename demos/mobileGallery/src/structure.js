@@ -244,7 +244,7 @@ define(["dojo/_base/lang"],
 				id: "html5",
 				speclevel: "7",
 				iconPos: "348,0,29,29",
-				title: "HTMl5",
+				title: "HTML5",
 				demourl: "views/html5.html",
 				jsmodule: "demos/mobileGallery/src/html5",
 				jsSrc: "doc/src/html5.js.txt"
