@@ -29,7 +29,9 @@ src/css3.js
 src/forms.js
 src/gridLayout.js
 src/progress.js
+src/badges.js
 src/rating.js
+src/dialogs.js
 src/scrollablePane.js
 src/headings.js
 src/icons.js
@@ -60,7 +62,9 @@ views/tabBar.html
 views/html5.html
 views/gridLayout.html
 views/progress.html
+views/badges.html
 views/rating.html
+views/dialogs.html
 views/scrollablePane.html
 
 # other image files
@@ -114,7 +118,9 @@ doc/src/list.js.txt
 doc/src/html5.js.txt
 doc/src/gridLayout.js.txt
 doc/src/progress.js.txt
+doc/src/badges.js.txt
 doc/src/rating.js.txt
+doc/src/dialogs.js.txt
 doc/src/scrollablePane.js.txt
 
 NETWORK:
