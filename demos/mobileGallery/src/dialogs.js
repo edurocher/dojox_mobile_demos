@@ -1,4 +1,4 @@
-require(["dojo/dom", 
+define(["dojo/dom", 
 	"dijit/registry",
 	"dojox/mobile/ProgressIndicator",
 	"dojox/mobile/parser", 

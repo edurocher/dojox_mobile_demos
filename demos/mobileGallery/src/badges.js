@@ -1,4 +1,4 @@
-require([
+define([
 	"dojo/dom",
 	"dijit/registry",
 	"dojox/mobile/parser",
