@@ -29,6 +29,7 @@ src/css3.js
 src/forms.js
 src/gridLayout.js
 src/progress.js
+src/media.js
 src/badges.js
 src/rating.js
 src/dialogs.js
@@ -62,6 +63,7 @@ views/tabBar.html
 views/html5.html
 views/gridLayout.html
 views/progress.html
+views/mobileMedia.html
 views/badges.html
 views/rating.html
 views/dialogs.html
