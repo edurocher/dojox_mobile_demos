@@ -33,3 +33,7 @@
 .mblSimpleDialog .mblListItem {
 	text-align: left;
 }
+.mblSimpleDialog {
+	/* position property re-definition:workaround for SimpleDialog when used in nested views (trac #15181) */
+	position: fixed;
+}
