@@ -7,8 +7,7 @@ define([
 	"dojox/mobile/IconContainer",
 	"dojox/mobile/Badge"
 ], function(dom, registry){
-
-
+	
 	setBadgeValue = function(i){
 		var w = registry.byId("icon" + i);
 		var badgeVal = w.get("badge");

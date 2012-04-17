@@ -13,7 +13,7 @@ define(["dojo/dom",
 		"dojox/mobile/TabBar",
 		"dojox/mobile/TabBarButton",
 		"dojox/mobile/Button"], 
-	function(dom, domClass, ready, array, registry, on) {
+	function(dom, domClass, ready, array, registry, on){
 	return {
 		init: function(){
 			ready(function(){
@@ -48,7 +48,7 @@ define(["dojo/dom",
 				progressIndicatorArray.push(elem);
 				elem = registry.byId("progressIndicator4");
 				progressIndicatorArray.push(elem);
-				array.forEach(progressIndicatorArray, function(elem) {
+				array.forEach(progressIndicatorArray, function(elem){
 					if(v){
 						elem.stop(); // Would be if start would handle multiple starts gracefully
 						elem.start();
