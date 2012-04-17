@@ -1,4 +1,6 @@
-define(["dojo/dom", 
+define([
+	"dojo/_base/array",
+	"dojo/dom", 
 	"dijit/registry",
 	"dojox/mobile/ProgressIndicator",
 	"dojox/mobile/parser", 
@@ -7,7 +9,7 @@ define(["dojo/dom",
 	"dojox/mobile/SimpleDialog",
 	"dojox/mobile/TextBox",
 	"dojox/mobile/Button",
-	"dojox/mobile/Slider"], function(dom, registry, ProgressIndicator){
+	"dojox/mobile/Slider"], function(array, dom, registry, ProgressIndicator){
                  
 
 	show = function(dlg) {
@@ -36,4 +38,14 @@ define(["dojo/dom",
 		hide(dlg);
 	}
 
+	return {
+		init: function(){
+			array.forEach(["message", "confirm", "login", "progress", "volume", "select"],
+				function(id){
+					var node = registry.byId("dlg_"+id).domNode;
+					node.parentNode.removeChild(node);
+					document.body.appendChild(node);
+				});
+		}
+	};
 });
