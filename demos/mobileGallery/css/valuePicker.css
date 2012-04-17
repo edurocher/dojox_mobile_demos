@@ -1,15 +1,1 @@
-.mblValuePicker {
-	display: inline-block; /* to align center */
-}
-#dlg1, #dlg2 {
-	width: 300px;
-	padding: 0;
-}
-span.dlgBtn {
-	padding: 0;
-	width: 130px;
-}
-.subtitle {
-	color: #00e7e6;
-	font-size: 12px;
-}
+/* Place-holder for value picker demo style sheet */
