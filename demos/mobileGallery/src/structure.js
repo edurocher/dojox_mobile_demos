@@ -162,6 +162,14 @@ define(["dojo/_base/lang"],
 				demourl: "views/dialogs.html",
 				jsmodule: "demos/mobileGallery/src/dialogs",
 				jsSrc: "doc/src/dialogs.js.txt"
+			}, {
+				id: "valuePicker",
+				speclevel: "8",
+				iconPos: "667,0,29,29",
+				title: "Value Picker",
+				demourl: "views/valuePicker.html",
+				jsmodule: "demos/mobileGallery/src/valuePicker",
+				jsSrc: "doc/src/valuePicker.js.txt"
 			}, {				
 				id: "map",
 				speclevel: "6",
