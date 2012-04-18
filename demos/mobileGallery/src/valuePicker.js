@@ -36,6 +36,6 @@ define([
 	showPickedValues = function(){
 		var dw = registry.byId("picker3");
 		var tw = registry.byId("picker4");
-		document.getElementById("msg3").innerHTML = dw.slots[0].get("value") + ", " + dw.slots[1].get("value") + " " + dw.slots[2].get("value") + "  "+ tw.slots[0].get("value") + ":" + tw.slots[1].get("value");		
+		document.getElementById("msg3").innerHTML = dw.slots[0].get("value") + ", " + dw.slots[1].get("value") + " " + dw.slots[2].get("value") + ", "+ tw.slots[0].get("value") + ":" + tw.slots[1].get("value");		
 	}
 });
