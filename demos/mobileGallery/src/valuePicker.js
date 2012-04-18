@@ -18,7 +18,7 @@ define([
 	}
 	showSelectedValue = function(){
 		var w = registry.byId("picker1");
-		document.getElementById("msg").innerHTML = w.slots[0].get("value") + ":" + w.slots[1].get("value") + ":" + w.slots[2].get("value");
+		document.getElementById("msg").innerHTML = w.slots[0].get("value") + ", " + w.slots[1].get("value") + " " + w.slots[2].get("value");
 	}
 	gotoNow = function(){
 		registry.byId("picker2").reset();
