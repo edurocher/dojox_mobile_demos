@@ -10,7 +10,8 @@ define([
 	"dojox/mobile/TabBar",
 	"dojox/mobile/TabBarButton",
 	"dojox/mobile/Heading",
-	"dojox/mobile/ToolBarButton"
+	"dojox/mobile/ToolBarButton",
+	"dojox/mobile/SpinWheelDatePicker"
 	], function(registry) {
 
 	gotoToday = function(){
