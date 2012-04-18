@@ -5,13 +5,14 @@ define([
 	"dojo/dom", 
 	"dojo/ready", 
 	"dojox/mobile/compat",
-	"dojox/mobile/DatePicker",
-	"dojox/mobile/TimePicker",
 	"dojox/mobile/TabBar",
 	"dojox/mobile/TabBarButton",
 	"dojox/mobile/Heading",
 	"dojox/mobile/ToolBarButton",
-	"dojox/mobile/SpinWheelDatePicker"
+	"dojox/mobile/SpinWheelDatePicker",
+	"dojox/mobile/ValuePickerDatePicker",
+	"dojox/mobile/SpinWheelTimePicker",
+	"dojox/mobile/ValuePickerTimePicker"
 	], function(registry) {
 
 	gotoToday = function(){
@@ -27,5 +28,14 @@ define([
 	showSelectedTime = function(){
 		var w = registry.byId("picker2");
 		document.getElementById("msg2").innerHTML = w.slots[0].get("value") + ":" + w.slots[1].get("value");
+	}
+	resetValuePickers = function(){
+		registry.byId("picker3").reset();		
+		registry.byId("picker4").reset();		
+	}
+	showPickedValues = function(){
+		var dw = registry.byId("picker3");
+		var tw = registry.byId("picker4");
+		document.getElementById("msg3").innerHTML = dw.slots[0].get("value") + ", " + dw.slots[1].get("value") + " " + dw.slots[2].get("value") + "  "+ tw.slots[0].get("value") + ":" + tw.slots[1].get("value");		
 	}
 });
