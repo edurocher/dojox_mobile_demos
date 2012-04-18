@@ -1,28 +1,29 @@
 <div id="valuePicker" data-dojo-type="dojox.mobile.View">
-
-    <div id="valuePickerListView" dojoType="dojox.mobile.View">
-        <ul dojoType="dojox.mobile.EdgeToEdgeList">
-            <li dojoType="dojox.mobile.ListItem" moveTo="datePickerView" transition="slide">Date</li>
-            <li dojoType="dojox.mobile.ListItem" moveTo="timePickerView" transition="slide">Time</li>
-        </ul>
-    </div>
-
+    
+    <ul data-dojo-type="dojox.mobile.TabBar"
+        data-dojo-props='barType:"segmentedControl", fixed:"top"'>
+        <li data-dojo-type="dojox.mobile.TabBarButton"
+            data-dojo-props='selected:true, moveTo:"datePickerView"'
+            >Date</li>
+        <li data-dojo-type="dojox.mobile.TabBarButton" data-dojo-props='moveTo:"timePickerView"'>Time</li>
+    </ul>
+    
     <div id="datePickerView" data-dojo-type="dojox.mobile.View">
-        <div data-dojo-type="dojox.mobile.Heading" data-dojo-props='back:"Back", moveTo:"valuePickerListView"'>
-            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="showSelectedValue()" data-dojo-props='label:"OK"'></span>
-            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="gotoToday()" data-dojo-props='label:"Today"'></span>
-        </div>
         <div id="picker1" data-dojo-type="dojox.mobile.DatePicker"></div>
-        <div id="msg"></div>
+        <div data-dojo-type="dojox.mobile.Heading">
+            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="gotoToday()" data-dojo-props='label:"Reset"'></span>
+            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="showSelectedValue()" data-dojo-props='label:"Apply"'></span>
+            <span id="msg"></span>
+        </div>
     </div>
 
     <div id="timePickerView" data-dojo-type="dojox.mobile.View">
-        <div data-dojo-type="dojox.mobile.Heading" data-dojo-props='back:"Back", moveTo:"valuePickerListView"'>
-            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="showSelectedTime()" data-dojo-props='label:"OK"'></span>
-            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="gotoNow()" data-dojo-props='label:"Now"'></span>
-        </div>
         <div id="picker2" data-dojo-type="dojox.mobile.TimePicker"></div>
-        <div id="msg2"></div>
+        <div data-dojo-type="dojox.mobile.Heading">
+            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="gotoNow()" data-dojo-props='label:"Reset"'></span>
+            <span data-dojo-type="dojox.mobile.ToolBarButton" onClick="showSelectedTime()" data-dojo-props='label:"Apply"'></span>
+            <span id="msg2"></span>
+        </div>
     </div>
 
 </div>
