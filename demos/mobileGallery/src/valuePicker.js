@@ -6,7 +6,11 @@ define([
 	"dojo/ready", 
 	"dojox/mobile/compat",
 	"dojox/mobile/DatePicker",
-	"dojox/mobile/TimePicker"
+	"dojox/mobile/TimePicker",
+	"dojox/mobile/TabBar",
+	"dojox/mobile/TabBarButton",
+	"dojox/mobile/Heading",
+	"dojox/mobile/ToolBarButton"
 	], function(registry) {
 
 	gotoToday = function(){
@@ -23,5 +27,4 @@ define([
 		var w = registry.byId("picker2");
 		document.getElementById("msg2").innerHTML = w.slots[0].get("value") + ":" + w.slots[1].get("value");
 	}
-
 });
