@@ -13,7 +13,7 @@ define([
 	"dojox/mobile/ValuePickerDatePicker",
 	"dojox/mobile/SpinWheelTimePicker",
 	"dojox/mobile/ValuePickerTimePicker"
-	], function(registry) {
+	], function(registry){
 
 	gotoToday = function(){
 		registry.byId("picker1").reset();
